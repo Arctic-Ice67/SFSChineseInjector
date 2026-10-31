@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "assembly": "ViewControl",
+  "display": "View Control",
+  "source": "人工翻译（离线）；原文来自 ViewControl.dll 的 #US 字面量，逐条对照源码确认过用途",
+  "entries": {
+    "View Control": { "zh": "视图控制", "state": "approved", "note": "mod 显示名" },
+    "Click parts of other controllable rockets inside the view to operate them, without switching control.": {
+      "zh": "点击视野内其他可操控火箭的零件即可直接操作，无需切换控制权。",
+      "state": "approved",
+      "note": "mod 简介"
+    },
+    "Toggle View Control": { "zh": "切换视图控制", "state": "approved", "note": "按键名（Keybinds）" },
+    "View Control: ON": { "zh": "视图控制：开启", "state": "approved", "note": "游戏内提示" },
+    "View Control: OFF": { "zh": "视图控制：关闭", "state": "approved", "note": "游戏内提示" },
+    "View Control: cannot stage while timewarping": {
+      "zh": "视图控制：时间加速时无法分级",
+      "state": "approved"
+    },
+    "View Control: no stage selected": { "zh": "视图控制：未选择分级", "state": "approved" },
+    "View Control: started ": { "zh": "视图控制：已启动 ", "state": "approved", "note": "后接数量" },
+    " rocket(s)": { "zh": " 枚火箭", "state": "approved", "note": "接在上一条后面" },
+    "(unnamed)": { "zh": "(未命名)", "state": "approved", "note": "火箭名称为空时的占位" },
+    "START": { "zh": "发射", "state": "approved", "note": "同步分级按钮上的文字" }
+  },
+  "skip": [
+    "part",
+    "Text",
+    "Icon",
+    "Top",
+    "selected",
+    "Stages Holder",
+    "ViewControl_Watcher",
+    "ViewControl Title",
+    "ViewControl Stage ",
+    "ViewControl Sync Stage",
+    "ViewControl Stages Window ",
+    "[ViewControl] ",
+    "[ViewControl] error: ",
+    " - stage ",
+    "com.arcticice.viewcontrol",
+    "Ice",
+    "v0.1.0",
+    "1.5.10.2"
+  ]
+}

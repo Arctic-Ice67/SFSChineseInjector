@@ -1,0 +1,30 @@
+# ---- 构建产物 ----
+/build/
+/dist/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+
+# ---- 第三方库（CMake FetchContent 获取，不入库）----
+/third_party/
+
+# ---- 生成物（词表由 data/catalog 合并生成；DLL 由源码编译）----
+/data/dict.json
+/data/runtime/*.dll
+/data/inject/*.dll
+
+# ---- 测试用游戏副本（不要把游戏本体提交上来）----
+/Spaceflight Simulator Game/
+
+# ---- C# 构建中间产物 ----
+/runtime/**/bin/
+/runtime/**/obj/
+
+# ---- 杂项 ----
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+/work/

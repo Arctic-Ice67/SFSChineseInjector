@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "assembly": "Warpinator",
+  "display": "Warpinator",
+  "source": "人工翻译；原文取自 Warpinator.dll 的 #US 字面量（部分文字由游戏自带翻译提供，已在汉化包补齐）",
+  "entries": {
+    "Warpinator": { "zh": "传送器" },
+    "A teleporter for rockets.": { "zh": "火箭传送器。" },
+    "Teleport": { "zh": "传送" },
+    "Surface": { "zh": "地表" },
+    "Orbit": { "zh": "轨道" },
+    "Back": { "zh": "返回" },
+    "Search": { "zh": "搜索" },
+    "Search...": { "zh": "搜索…" },
+    "Planet Search": { "zh": "星球搜索" },
+    "Search Results": { "zh": "搜索结果" },
+    "No results found.": { "zh": "没有找到结果。" },
+    "You aren't controlling a rocket!": { "zh": "你当前没有在控制火箭！" },
+    "Open Menu": { "zh": "打开菜单" },
+    "Warpinator Keybindings": { "zh": "传送器快捷键" },
+    "Warpinator Changelog": { "zh": "更新日志" },
+    "Projected Orbit": { "zh": "预测轨道" },
+    "Focus Planet": { "zh": "定位星球" },
+    "Use Landmark": { "zh": "使用地标" },
+    "Go": { "zh": "前往" },
+    "Rocket": { "zh": "火箭" },
+    "Don't show this again": { "zh": "不再显示" },
+    "Okay": { "zh": "确定" },
+    "Yes": { "zh": "是" },
+    "No": { "zh": "否" },
+    "NOTE: This function is in an early state. Use at your own risk.": {
+      "zh": "注意：该功能仍处于早期阶段，请自行承担风险。"
+    },
+    "Cannot teleport below planet's surface.": { "zh": "无法传送到星球地表以下。" },
+    "The height you set is within this planet's atmosphere, and may destroy your rocket from heating.\n\nAre you sure?": {
+      "zh": "你设置的高度位于该星球大气层内，火箭可能因高温被烧毁。\n\n确定继续吗？"
+    },
+    "Orbit Height:": { "zh": "轨道高度：" },
+    "Surface Angle:": { "zh": "地表角度：" },
+    "Counterclockwise:": { "zh": "逆时针：" },
+    "Velocity: ": { "zh": "速度：" },
+    "Apoapsis: ": { "zh": "远地点：" },
+    "Periapsis: ": { "zh": "近地点：" }
+  },
+  "inline": [
+    { "from": "Teleporting to ", "to": "正在传送到 " },
+    { "from": "Teleport to ", "to": "传送到 " },
+    { "from": " Landmarks", "to": " 地标" }
+  ],
+  "skip": [
+    "NeptuneSky", "Neptune.Warpinator.Mod", "v0.8.4-alpha", "1.6",
+    "Warpinator.dll", "ModGUI Container", "Fixed landmark teleportation breaking the mod in update 1.6.",
+    "e", ".", "0+", "- ", " (", ")", ":"
+  ]
+}

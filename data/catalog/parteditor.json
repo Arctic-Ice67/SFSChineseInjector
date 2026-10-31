@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "assembly": "PartEditor",
+  "display": "Part Editor",
+  "source": "人工翻译；原文取自 PartEditor.dll 的 #US 字面量",
+  "entries": {
+    "Part Editor": { "zh": "零件编辑器", "note": "mod 名 / 窗口标题" },
+    "Edit all part stats!": { "zh": "编辑零件的所有数值！", "note": "mod 简介" },
+
+    "GUI Settings": { "zh": "界面设置" },
+    "Window Width": { "zh": "窗口宽度" },
+    "Window Height": { "zh": "窗口高度" },
+    "Stretch Window In Height": { "zh": "高度随内容拉伸" },
+    "Editing Settings": { "zh": "编辑设置" },
+    "Numbers Change Step": { "zh": "数值步进" },
+    "Degrees Change Step": { "zh": "角度步进" },
+
+    "Select a part": { "zh": "请选择一个零件" },
+    "Position": { "zh": "位置" },
+    "Orientation": { "zh": "朝向" },
+    "Double Variables": { "zh": "浮点变量" },
+    "String Variables": { "zh": "文本变量" },
+    "Bool Variables": { "zh": "布尔变量" }
+  },
+  "skip": [
+    "parteditor", "CucumberSpace", "PartEditor Holder", "PartEditor.MainWindow", "UITools", "1.0", "1.5.9.6"
+  ]
+}
